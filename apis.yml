@@ -1,19 +1,51 @@
 aid: kriptos
 name: Kriptos
-description: Kriptos is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Kriptos is an AI-driven unstructured data security platform that automatically discovers,
+  classifies, and labels documents across endpoints, servers, and cloud storage, then feeds that business
+  and risk context into the DLP, CASB, SIEM, EDR, and IAM tooling an organization already runs rather than
+  replacing it. The platform spans data discovery and classification, data compliance and risk management,
+  data access governance across Microsoft 365 and Google Workspace, insider threat management with UEBA,
+  DSPM, and AI governance covering shadow-AI monitoring for tools such as Microsoft Copilot and Google
+  Gemini. Classification results are written back as native Microsoft Purview and Google Drive labels.
+  Founded in Ecuador and backed by Techstars, Kriptos reports more than 1.2 billion documents classified
+  for over 150,000 users, with customers concentrated in banking, insurance, healthcare, and utilities
+  across Latin America. Kriptos is a sales-led product and publishes no public API, developer portal, or
+  machine-readable API documentation.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/65ce61617043534a02d1cc02/699353d2f1460d078a3eaf08_kriptos.svg
 url: https://raw.githubusercontent.com/api-evangelist/kriptos/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - techstars
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Security
+- Data Classification
+- Data Loss Prevention
+- Data Governance
+- Compliance
+- DSPM
+- Insider Threat
+- Artificial Intelligence
+- Unstructured Data
+- Microsoft 365
+- Google Workspace
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,24 @@ maintainers:
 common:
 - type: Website
   url: https://kriptos.io/
+- type: Blog
+  url: https://www.kriptos.io/resources/blog
+- type: Support
+  url: https://www.kriptos.io/company/contact-us
+- type: SignUp
+  url: https://www.kriptos.io/platform/request-demo
+- type: PrivacyPolicy
+  url: https://www.kriptos.io/company/privacy-policy
+- type: StatusPage
+  url: https://status.kriptos.io/
+- type: Lifecycle
+  url: lifecycle/kriptos-lifecycle.yml
+- type: DomainSecurity
+  url: security/kriptos-domain-security.yml
+- type: LLMsTxt
+  url: llms/kriptos-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
