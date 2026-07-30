@@ -1,0 +1,19 @@
+generated: '2026-07-19'
+method: searched
+source: https://status.kriptos.io/
+versioning: null
+deprecation: null
+sla: null
+status_page: https://status.kriptos.io/
+status_page_provider: StatusCake
+status_page_notes: >-
+  status.kriptos.io resolves (HTTP 200) and serves a StatusCake Public Report
+  branded to the kriptos.io domain, with Announcements, Uptime History and a
+  7-day uptime panel. The report is password-gated, so component-level detail
+  is not publicly readable.
+deprecated_operations: []
+notes: >-
+  No public versioning policy, deprecation policy, Sunset/Deprecation header
+  documentation, or SLA page was found. Kriptos publishes no developer
+  documentation or API reference, so there is no operation surface from which
+  to derive deprecations.
