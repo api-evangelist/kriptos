@@ -11,6 +11,17 @@ description: Kriptos is an AI-driven unstructured data security platform that au
   for over 150,000 users, with customers concentrated in banking, insurance, healthcare, and utilities
   across Latin America. Kriptos is a sales-led product and publishes no public API, developer portal, or
   machine-readable API documentation.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
